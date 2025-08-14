@@ -1,0 +1,51 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #e9ebee;
+    color: #444;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 50% 15%;
+    border-bottom-right-radius: 50% 15%;
+    object-fit: cover;
+}
+
+.memory-text {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 2.5rem;
+    color: #8b7e66; /* muted gold */
+    margin: 10px 0;
+}
+
+.dates {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.content {
+    background-color: #f5f6f7;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    font-size: 1.05rem;
+    color: #555;
+}
